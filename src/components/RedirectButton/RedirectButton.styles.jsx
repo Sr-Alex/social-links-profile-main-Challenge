@@ -4,7 +4,7 @@ const RedirectButton = styled.button`
     display: block;
     cursor: pointer;
 
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: .5rem 0;
 
     width: 100%;
@@ -20,11 +20,15 @@ const RedirectButton = styled.button`
     border: none;
     border-radius: .5rem;
 
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 
     &:hover {
         background-color: ${props => props.theme.colors.primary.Green};
         color: ${props => props.theme.colors.neutral.Off_Black};
+    }
+
+    &:active {
+        transform: scale(.98);
     }
 `;
 
