@@ -95,7 +95,7 @@ Error generating stack: `+o.message+`
     display: block;
     cursor: pointer;
 
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: .5rem 0;
 
     width: 100%;
@@ -111,11 +111,15 @@ Error generating stack: `+o.message+`
     border: none;
     border-radius: .5rem;
 
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 
     &:hover {
         background-color: ${e=>e.theme.colors.primary.Green};
         color: ${e=>e.theme.colors.neutral.Off_Black};
+    }
+
+    &:active {
+        transform: scale(.98);
     }
 `;function Mm(){return re.jsxs(Lm,{children:[re.jsx("figure",{children:re.jsx("img",{src:Dm})}),re.jsx("h2",{children:"Jessica Randall"}),re.jsx("h3",{children:"London, United Kingdom"}),re.jsx("p",{children:'"Front-end developer and avid reader"'}),re.jsxs("nav",{children:[re.jsx(Jn,{children:"GitHub"}),re.jsx(Jn,{children:"Frontend Mentor"}),re.jsx(Jn,{children:"LinkedIn"}),re.jsx(Jn,{children:"Twitter"}),re.jsx(Jn,{children:"Instagram"})]})]})}const jm={colors:{primary:{Green:"hsl(75, 94%, 57%)"},neutral:{White:"hsl(0, 0%, 100%)",Grey:"hsl(0, 0%, 20%)",Dark_Grey:"hsl(0, 0%, 12%)",Off_Black:"hsl(0, 0%, 8%)"}},fonts:{Inter:{src:"src/assets/fonts/Inter-VariableFont_slnt,wght.ttf",weights:{thin:400,bold:600,bolder:700}}},sizes:{paragraph:"14px"}},Fm=Om`
     @font-face {
